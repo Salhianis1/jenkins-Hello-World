@@ -1,6 +1,6 @@
 node {
     stage('clone') {
-        git 'https://github.com/Salhianis1/jenkins-Hello-World.git'
+        git 'git branch: 'main', url: 'https://github.com/Salhianis1/jenkins-Hello-World.git''
         
     }
     
